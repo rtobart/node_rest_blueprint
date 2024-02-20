@@ -12,6 +12,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use('/', router)
-app.get('/', (req, res) => {res.status(200).send('runing')})
+app.get('/', (req, res) => {res.status(200).send('runing CTM')})
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
